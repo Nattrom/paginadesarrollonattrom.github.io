@@ -1,0 +1,79 @@
+h1.titulo {
+    text-align: center;
+}
+body{
+    font-family: sans-serif;
+}
+.Contenedor-principal{
+    display:flex;
+}
+.contenedor-secundario{
+    display: flex;
+
+}
+.contenedor-3{
+display: flex;
+}
+ .GIRASOL{
+    margin-left: 60px;
+     width: 500px;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ }
+ .TULIPAN{
+    margin-left: 50px;
+    width: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.MARGARITAS{
+    width: 400px;
+    margin-left: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.ROSAS{
+    margin-left: 50px;
+    width: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.JAZMIN{
+    margin-left: 100px;
+    width: 400px;
+    box-shadow: rgba(53, 53, 63, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.AMAPOLAS{
+    width: 400px;
+    margin-left: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+img{
+    width: 100%;
+}
+.card{
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 0.5rem;
+}
+.Titulo, .Subtitulo{
+    text-align: center;
+}
+.descrpcion{
+    text-align: justify;
+}
+.card-body{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.Pie-pagina{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.Grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
